@@ -1,0 +1,383 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4057168377,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User want to open browser and access stockbit web",
+        "description": "",
+        "id": "forgot-password-feature;user-want-to-open-browser-and-access-stockbit-web;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 181641955,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3507391142,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User open google web",
+            "match": {
+              "location": "OpenWebStep.userOpenGoogleWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2223822957,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User want to check the logo web",
+            "match": {
+              "location": "OpenWebStep.checkLogo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2151232236,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User want to check the login process",
+            "match": {
+              "location": "LoginStep.userWantToLoginProcess()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2166084595,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User want to click menu forgot password",
+            "match": {
+              "location": "ForgotPasswordStep.userWantToLoginProcess()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2202916472,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User input email \"test@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "ForgotPasswordStep.inputEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2094636188,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click button submit",
+            "match": {
+              "location": "ForgotPasswordStep.clickSubmitBotton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2037051547,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sistem will show alerts",
+            "match": {
+              "location": "ForgotPasswordStep.showMessagesError()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4307931320,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User didn\u0027t receive the email \"test@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@gmail.com",
+                  "offset": 31
+                }
+              ],
+              "location": "ForgotPasswordStep.noReceiveEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2066116992,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click button submit",
+            "match": {
+              "location": "ForgotPasswordStep.clickSubmitBotton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2029472826,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "sistem will show alerts",
+            "match": {
+              "location": "ForgotPasswordStep.showMessagesError()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@forgotpassword"
+          },
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@openweb"
+          },
+          {
+            "line": 1,
+            "name": "@Features"
+          }
+        ]
+      }
+    ],
+    "name": "Forgot Password Feature",
+    "description": "",
+    "id": "forgot-password-feature",
+    "keyword": "Feature",
+    "uri": "ForgotPassword.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Features"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1723836850,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User want to open browser and access stockbit web",
+        "description": "",
+        "id": "login-feature;user-want-to-open-browser-and-access-stockbit-web;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 254096739,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3402634160,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User open google web",
+            "match": {
+              "location": "OpenWebStep.userOpenGoogleWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2068996952,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User want to check the logo web",
+            "match": {
+              "location": "OpenWebStep.checkLogo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2143757244,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User want to check the login process",
+            "match": {
+              "location": "LoginStep.userWantToLoginProcess()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2187950024,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User input email or username \"username\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStep.inputUsername(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2130743243,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User input password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginStep.inputPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2087011557,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User press enter",
+            "match": {
+              "location": "LoginStep.loginProcess()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2082134387,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sistem will show message \"Username atau password salah. Mohon coba lagi.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Username atau password salah. Mohon coba lagi.",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginStep.verifiedAlertMessage(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@login"
+          },
+          {
+            "line": 1,
+            "name": "@LoginPage"
+          },
+          {
+            "line": 4,
+            "name": "@openweb"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginPage"
+      }
+    ]
+  }
+]
